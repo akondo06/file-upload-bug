@@ -18,5 +18,5 @@ Uncaught TypeError: Cannot convert a Symbol value to a string
 	at Function.isPlainObject (jquery.js:305)
 ```
 
-On Ember 2.18.0 everything works. It seems that disabling the prototype extensions for arrays fixes the issue but
-my project relies quite a bit on the prototype extensions, so disabling is not really an option.
+On Ember `2.18.0` everything works. It seems that disabling the `prototype extensions for arrays` fixes the issue but
+my project relies quite a bit on the prototype extensions, so disabling them is not really an option.
