@@ -1,6 +1,6 @@
 # file-upload-bug
 
-Weird Array stuff when using jquery plugin: blueimp-file-upload:
+Weird Array stuff when using jquery plugin for file upload: file-upload (blueimp-file-upload on npm):
 
 Ember 3.0.0-beta.3 and jQuery 3.2.1
 ```
