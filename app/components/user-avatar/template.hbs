@@ -1,0 +1,11 @@
+<div class="avatar-with-upload">
+	<div class="avatar-wrapper">
+		{{user.avatarId}}
+		{{#if isUploading}}
+			<div>Uploading....</div>
+		{{/if}}
+	</div>
+	<div class="avatar-buttons">
+		<input id="fileupload" type="file" name="files[]" multiple />
+	</div>
+</div>
